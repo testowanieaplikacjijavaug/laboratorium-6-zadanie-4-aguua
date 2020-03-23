@@ -16,7 +16,11 @@ public class Friendship {
     //Pobranie listy przyjaciol
     public List<String> getFriendsList(String person) {
         if(person == null )
-            throw new IllegalArgumentException();return friendships.get(person);
+            throw new IllegalArgumentException();
+
+        if(friendships.containsKey(person))
+            return friendships.get(person);
+        return null;
     }
 
     //Sprawdzenie czy przyjaciele

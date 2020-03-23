@@ -22,6 +22,19 @@ public class FriendshipHamcrestTest {
         assertThat(friendship.getClass(), is(Friendship.class));
     }
 
+
+    /// Custom Matchers///
+    @Test
+    public void test_matcher_no_friends(){
+        assertThat(friendship,  FriendsMatcher.noInfoAboutPerson("Ola"));
+    }
+
+    @Test
+    public void test_matcher_friendship_between(){
+        friendship.makeFriends("Ola", "Ala");
+        assertThat(friendship, FriendsMatcher.hasFriendshipBetween("Ola","Ala"));
+    }
+    ///
     @Test
     public void test_empty_friendships() {
         assertThat(friendship.getFriendsList("Ola"), is(nullValue()));

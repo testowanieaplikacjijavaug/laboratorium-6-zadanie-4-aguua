@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FriendshipHamcrestTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-03-23T16:02:09" hostname="GDN-N-AGA" time="0.025">
+<testsuite name="FriendshipHamcrestTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2020-03-23T16:46:51" hostname="GDN-N-AGA" time="0.023">
   <properties/>
-  <testcase name="test_empty_friendships" classname="FriendshipHamcrestTest" time="0.008"/>
-  <testcase name="test_make_more_friends" classname="FriendshipHamcrestTest" time="0.004"/>
+  <testcase name="test_empty_friendships" classname="FriendshipHamcrestTest" time="0.005"/>
+  <testcase name="test_make_more_friends" classname="FriendshipHamcrestTest" time="0.003"/>
   <testcase name="test_are_not_friends" classname="FriendshipHamcrestTest" time="0.0"/>
-  <testcase name="tets_are_friends_null" classname="FriendshipHamcrestTest" time="0.006"/>
+  <testcase name="tets_are_friends_null" classname="FriendshipHamcrestTest" time="0.005"/>
   <testcase name="test_make_friends_both_ways" classname="FriendshipHamcrestTest" time="0.002"/>
   <testcase name="test_dont_have_friends" classname="FriendshipHamcrestTest" time="0.0"/>
   <testcase name="test_get_list_friends_from_null" classname="FriendshipHamcrestTest" time="0.0"/>
+  <testcase name="test_matcher_no_friends" classname="FriendshipHamcrestTest" time="0.001"/>
   <testcase name="test_make_empty_friends" classname="FriendshipHamcrestTest" time="0.001"/>
   <testcase name="test_are_friends" classname="FriendshipHamcrestTest" time="0.0"/>
   <testcase name="test_get_list" classname="FriendshipHamcrestTest" time="0.001"/>
   <testcase name="test_my_friends_are_not_yours" classname="FriendshipHamcrestTest" time="0.001"/>
   <testcase name="test_are_friend_where_is_no_friendship" classname="FriendshipHamcrestTest" time="0.0"/>
   <testcase name="classInstance" classname="FriendshipHamcrestTest" time="0.0"/>
-  <testcase name="test_make_null_friends" classname="FriendshipHamcrestTest" time="0.0"/>
+  <testcase name="test_matcher_friendship_between" classname="FriendshipHamcrestTest" time="0.0"/>
+  <testcase name="test_make_null_friends" classname="FriendshipHamcrestTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
