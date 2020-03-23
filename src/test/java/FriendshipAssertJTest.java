@@ -20,6 +20,18 @@ public class FriendshipAssertJTest{
     public void classInstance(){
         assertThat(friendship.getClass().isInstance(Friendship.class));
     }
+    /// Custom Matchers///
+    @Test
+    public void test_matcher_no_friends(){
+        FriendshipAssert.assertThat(friendship).noInfoAboutPerson("Ola");
+    }
+
+    @Test
+    public void test_matcher_friendship_between(){
+        friendship.makeFriends("Ola", "Ala");
+        FriendshipAssert.assertThat(friendship).hasFriendshipBetween("Ola","Ala");
+    }
+    ///
 
 
     @Test

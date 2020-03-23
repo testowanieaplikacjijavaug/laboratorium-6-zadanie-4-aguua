@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FriendshipAssertJTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2020-03-23T16:46:51" hostname="GDN-N-AGA" time="0.092">
+<testsuite name="FriendshipAssertJTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2020-03-23T17:17:51" hostname="GDN-N-AGA" time="0.086">
   <properties/>
-  <testcase name="test_empty_friendships" classname="FriendshipAssertJTest" time="0.07"/>
+  <testcase name="test_empty_friendships" classname="FriendshipAssertJTest" time="0.065"/>
   <testcase name="test_make_one_empty_friends" classname="FriendshipAssertJTest" time="0.003"/>
   <testcase name="test_make_more_friends" classname="FriendshipAssertJTest" time="0.008"/>
-  <testcase name="test_make_null2_friends" classname="FriendshipAssertJTest" time="0.001"/>
+  <testcase name="test_make_null2_friends" classname="FriendshipAssertJTest" time="0.0"/>
   <testcase name="test_make_second_empty_friends" classname="FriendshipAssertJTest" time="0.0"/>
   <testcase name="test_are_not_friends" classname="FriendshipAssertJTest" time="0.001"/>
   <testcase name="test_make_friends_both_ways" classname="FriendshipAssertJTest" time="0.002"/>
-  <testcase name="test_are_null_friends" classname="FriendshipAssertJTest" time="0.001"/>
+  <testcase name="test_are_null_friends" classname="FriendshipAssertJTest" time="0.0"/>
+  <testcase name="test_matcher_no_friends" classname="FriendshipAssertJTest" time="0.001"/>
   <testcase name="test_are_empty_friends" classname="FriendshipAssertJTest" time="0.001"/>
   <testcase name="test_make_null1_friends" classname="FriendshipAssertJTest" time="0.0"/>
-  <testcase name="test_make_empty_friends" classname="FriendshipAssertJTest" time="0.001"/>
+  <testcase name="test_make_empty_friends" classname="FriendshipAssertJTest" time="0.0"/>
   <testcase name="test_are_friends" classname="FriendshipAssertJTest" time="0.0"/>
-  <testcase name="test_get_list" classname="FriendshipAssertJTest" time="0.001"/>
-  <testcase name="test_my_friends_are_not_yours" classname="FriendshipAssertJTest" time="0.001"/>
-  <testcase name="test_are_friend_where_is_no_friendship" classname="FriendshipAssertJTest" time="0.0"/>
-  <testcase name="classInstance" classname="FriendshipAssertJTest" time="0.001"/>
+  <testcase name="test_get_list" classname="FriendshipAssertJTest" time="0.0"/>
+  <testcase name="test_my_friends_are_not_yours" classname="FriendshipAssertJTest" time="0.002"/>
+  <testcase name="test_are_friend_where_is_no_friendship" classname="FriendshipAssertJTest" time="0.001"/>
+  <testcase name="classInstance" classname="FriendshipAssertJTest" time="0.0"/>
+  <testcase name="test_matcher_friendship_between" classname="FriendshipAssertJTest" time="0.0"/>
   <testcase name="test_make_null_friends" classname="FriendshipAssertJTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
